@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Property Explorer</title>
+  <style>
+    body {
+      font-family: Arial;
+      margin: 0;
+      background: #f5f5f5;
+      text-align: center;
+    }
+
+    h1 {
+      background: black;
+      color: white;
+      padding: 15px;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .price {
+      color: green;
+      font-weight: bold;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 12px;
+      background: black;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .btn:hover {
+      background: #444;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>🏠 Property Explorer</h1>
+
+<div class="container">
+
+  <div class="card">
+    <img src="https://imgs.search.brave.com/cgyCr2MSLl_u7luv8xbe_Pfld9MQ34tLo4BfORMGDfo/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9kM29v/OXUzcDA5ZWdkcy5j/bG91ZGZyb250Lm5l/dC9maWx0ZXJzOmZv/cm1hdCh3ZWJwKS9y/ZW50YWxfcHJvcGVy/dHkvMDF0MEswMDAw/MDVYWjRMUUFXL3Zp/bGxhLXBvb2wuanBl/Zy5qcGVn" alt="Villa">
+    <h3>Luxury Villa</h3>
+    <p class="price">₹2.5 Cr</p>
+    <p>Location: Goa</p>
+    <p>5BHK • Pool • Sea View</p>
+    <a href="villa.html" class="btn">View Details</a>
+  </div>
+
+  <div class="card">
+    <img src="https://imgs.search.brave.com/Ssqo020G00h-peCHO8A8XhFpxjs3DOXEhhoNVaHSkA4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/ZGVjb3JpbGxhLmNv/bS9vbmxpbmUtZGVj/b3JhdGluZy93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyMS8wNS9N/b2Rlcm4tb3JnYW5p/Yy1hcGFydG1lbnQt/ZGVzaWduLWJ5LURl/Y29yaWxsYS1kZXNp/Z25lci1MZWFubmEt/Uy0xMDI0eDY4MS5q/cGc" alt="Apartment">
+    <h3>Modern Apartment</h3>
+    <p class="price">₹80 Lakh</p>
+    <p>Location: Delhi</p>
+    <p>3BHK • Parking • Balcony</p>
+    <a href="apartment.html" class="btn">View Details</a>
+  </div>
+
+  <div class="card">
+    <img src="https://imgs.search.brave.com/ZHoPZMBpuLntL7AFj3SZzRlKBwjvPAvdnK_ugKcjgHs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wNjYv/NjI4LzI3My9zbWFs/bC9ob3VzZS1zdW5z/ZXQtb2NlYW4tdmll/dy1waG90by5qcGc" alt="House">
+    <h3>Beach House</h3>
+    <p class="price">₹1.8 Cr</p>
+    <p>Location: Kerala</p>
+    <p>Sea Facing • Garden • Peaceful</p>
+    <a href="beachhouse.html" class="btn">View Details</a>
+  </div>
+
+</div>
+
+</body>
+</html>
